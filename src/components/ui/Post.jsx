@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getPost, storePost } from "../../api/post";
-import "../styles/post.css";
+import "./styles/post.css";
 import PostCard from "./PostCard";
 
 export default function Post() {
